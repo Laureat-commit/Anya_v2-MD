@@ -8,16 +8,16 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "Qᴜᴇᴇɴ ᴀɴʏᴀ ᴠ2",
+    botname: process.env.BotName || "ivan🤴",
     footer: process.env.Footer || "© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐐𝐮𝐞𝐞𝐧 𝐀𝐧𝐲𝐚 𝐁𝐨𝐭",
-    prefa: process.env.PREFIX || process.env.Prefix || "-",
+    prefa: process.env.PREFIX || process.env.Prefix || ".",
     themeemoji: process.env.ThemeEmoji || "🎐",
 
     /**
      * owner details and parameters
      */
-    ownername: process.env.OWNER_NUMBER || process.env.Owner_Name || "Pika~Kun",
-    ownernumber: process.env.Owner_Number || "916900904828",
+    ownername: process.env.OWNER_NUMBER || process.env.Owner_Name || "WASUKE KMD",
+    ownernumber: process.env.Owner_Number || "24177059320",
     instagramId: process.env.Insta || "3.69_pika",
 
     /**
@@ -30,7 +30,7 @@ module.exports = {
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
     mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
-    sessionId: process.env.SESSION_ID || "YOUR_SESSION_ID",
+    sessionId: process.env.SESSION_ID || "TssnSARVz_A_N_Y_A_V_2_IxVNaTUSSqS",
 
     
     
@@ -40,7 +40,7 @@ module.exports = {
      */
     image_1: readFileSync('./lib/Assets/image_1.jpg'), // primary image
     image_2: readFileSync('./lib/Assets/image_2.jpg'), // secondry image
-    imageUrl: "https://i.ibb.co/ZKKSZHT/Picsart-23-06-24-13-36-01-843.jpg", // image url, to replace to your url upload your image to https://imgbb.com
+    imageUrl: "https://cdn.elxyzgpt.xyz/file/ANA4CicsjN.png", // image url, to replace to your url upload your image to https://imgbb.com
     imageMentionUrl: "https://i.ibb.co/ZKKSZHT/Picsart-23-06-24-13-36-01-843.jpg", // image for mention reply audio media
     aliveMedia: readFileSync("./lib/Assets/aliveMedia.mp4"),
     menuMedia: readFileSync('./lib/Assets/menuMedia.mp4'),
